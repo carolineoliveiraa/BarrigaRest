@@ -6,9 +6,7 @@ import io.restassured.builder.ResponseSpecBuilder;
 import org.hamcrest.Matchers;
 import org.junit.BeforeClass;
 
-import java.util.regex.Matcher;
-
-public class BaseTestes implements Constantes {
+public class BaseTest implements Constantes {
 
     @BeforeClass
     public static void setup(){
