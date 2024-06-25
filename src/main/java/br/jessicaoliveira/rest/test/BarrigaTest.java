@@ -5,12 +5,9 @@ import br.jessicaoliveira.rest.utils.DataUtils;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.specification.FilterableRequestSpecification;
-import org.hamcrest.Matchers;
-import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
-import org.junit.runner.manipulation.Filterable;
 import org.junit.runners.MethodSorters;
 
 import java.util.HashMap;
